@@ -22,7 +22,7 @@ namespace SealedMethodDemo
     }
     class Developers : Manager
     {
-        public override void show()                                  //here error occurs as the sealed method cannot be overriden
+        public void show1()                                  //here error occurs as the sealed method cannot be overriden
         {
             Console.WriteLine("This is Developer method");
         }
