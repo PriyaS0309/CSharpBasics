@@ -61,7 +61,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld", "HelloWorld\He
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{BA244F0F-BCF2-4A91-BF33-3CF0D52C8B13}"
 	ProjectSection(SolutionItems) = preProject
-		SqlQuery_1.sql = SqlQuery_1.sql
+		SqlQuery(Basic queries).sql = SqlQuery(Basic queries).sql
+		SqlQuery(primary_AND_ForeignKey).sql = SqlQuery(primary_AND_ForeignKey).sql
+		SqlQuery(Use of alter statement).sql = SqlQuery(Use of alter statement).sql
 	EndProjectSection
 EndProject
 Global
