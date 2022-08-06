@@ -1,0 +1,19 @@
+﻿
+@{
+    ViewBag.Title = "About";
+}
+
+<h2>About</h2>
+
+<h2>@TempData["NewMessage"]</h2>
+
+<h2>@ViewBag.StudentInfo</h2>
+
+<ul>
+   @{ 
+       foreach (var item in (string[])TempData["Hobbies"])
+       {
+           <li>@item</li>
+       }
+   }
+</ul>

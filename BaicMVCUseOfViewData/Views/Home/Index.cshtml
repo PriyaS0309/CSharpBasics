@@ -1,0 +1,32 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<h2>@ViewData["Current Time"]</h2>
+
+<p>
+    @ViewData["MyFirstMVCProject"]
+</p>
+
+
+@{
+    var a = (BaicMVC.Models.Employee)ViewData["EmployeesDetail"];
+
+}
+
+<p>@a.EmpId</p>
+
+<p>@a.EmpName</p>
+<p>@a.EmpSalary</p>
+
+<ul>
+    @{
+        foreach (var item in (string[])ViewData["arrayIs"])
+        {
+            <li>@item</li>
+        }
+
+    }

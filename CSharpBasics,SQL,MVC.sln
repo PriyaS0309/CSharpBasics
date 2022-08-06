@@ -64,11 +64,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		SqlQuery(AggregrateFunctionsANDClauses)sql.sql = SqlQuery(AggregrateFunctionsANDClauses)sql.sql
 		SqlQuery(Basic queries).sql = SqlQuery(Basic queries).sql
 		SqlQuery(Joins).sql = SqlQuery(Joins).sql
+		SqlQuery(operator).sql = SqlQuery(operator).sql
 		SqlQuery(primary_AND_ForeignKey).sql = SqlQuery(primary_AND_ForeignKey).sql
+		SqlQuery(StoredProcedure).sql = SqlQuery(StoredProcedure).sql
 		SqlQuery(SubQuery).sql = SqlQuery(SubQuery).sql
 		SqlQuery(union,UnionAll,intersect,except)sql.sql = SqlQuery(union,UnionAll,intersect,except)sql.sql
 		SqlQuery(Use of alter statement).sql = SqlQuery(Use of alter statement).sql
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaicMVCUseOfViewData", "BaicMVCUseOfViewData\BaicMVCUseOfViewData.csproj", "{306A721B-F4C6-4912-9657-35000BA8B33E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCViewBagAND_TempData", "MVCViewBag\MVCViewBagAND_TempData.csproj", "{3C4765DE-9BC2-4A1E-95F3-9DD2D0857408}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCSessionDemo", "MVCSessionDemo\MVCSessionDemo.csproj", "{73690CD6-D3D3-43A9-8890-8168776EF095}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -188,6 +196,18 @@ Global
 		{3F2B5BB0-0896-4176-B1F5-033AD3BBD9FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3F2B5BB0-0896-4176-B1F5-033AD3BBD9FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3F2B5BB0-0896-4176-B1F5-033AD3BBD9FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{306A721B-F4C6-4912-9657-35000BA8B33E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{306A721B-F4C6-4912-9657-35000BA8B33E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{306A721B-F4C6-4912-9657-35000BA8B33E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{306A721B-F4C6-4912-9657-35000BA8B33E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C4765DE-9BC2-4A1E-95F3-9DD2D0857408}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C4765DE-9BC2-4A1E-95F3-9DD2D0857408}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C4765DE-9BC2-4A1E-95F3-9DD2D0857408}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C4765DE-9BC2-4A1E-95F3-9DD2D0857408}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73690CD6-D3D3-43A9-8890-8168776EF095}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73690CD6-D3D3-43A9-8890-8168776EF095}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73690CD6-D3D3-43A9-8890-8168776EF095}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73690CD6-D3D3-43A9-8890-8168776EF095}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,30 @@
+﻿
+@{
+    ViewBag.Title = "Index2";
+}
+
+<h2>Index2</h2>
+
+<h2>@ViewBag.Message</h2>
+
+<h2>@ViewBag.CurrentTime</h2>
+
+<ul>
+    @{ 
+        foreach (var item in ViewBag.MyArrayFruits)
+        {
+            <li>@item</li>
+        }
+    }
+
+</ul>
+
+@{ 
+    var a = ViewBag.StudentIno;
+} 
+
+<p>@a.StudentId</p>
+<p>@a.StudentName</p>
+<p>@a.StudentAge</p>
+
+
