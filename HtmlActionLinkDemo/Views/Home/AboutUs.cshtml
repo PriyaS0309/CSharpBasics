@@ -15,5 +15,40 @@
 <h2>AboutUs</h2>
 <h3>Hello This is About Us Page</h3>
 
-<h3><b>My name is Priya</b></h3>
+@{
+    Html.BeginForm("Index", "Home");               //starting Html From Providing 2 parameters i.e(view name , and controller name)
+}
+
+@Html.Label("Full Name:", new { style = "background:lightgrey;color:Black" })  &nbsp; @Html.TextBox("fullName")
+
+<br />
+<br />
+
+@Html.Label("Password:", new { style = "background:lightgrey;color:Black" })  &nbsp; @Html.Password("pass")
+<br />
+<br />
+
+@Html.Label("Address:", new { style = "background:lightgrey;color:Black" }) &nbsp; @Html.TextArea("TextArea","")
+
+<br/>
+<br/>
+
+@Html.Label("Male", new { style = "background:lightgrey;color:Black" })  &nbsp; @Html.RadioButton("Gender", "Male")
+@Html.Label("Female", new { style = "background:lightgrey;color:Black" }) &nbsp; @Html.RadioButton("Gender", "Female")
+
+<br/>
+<br/>
+@Html.Label("Select Countries", new { style = "background:lightgrey;color:Black" }) &nbsp; @Html.DropDownList("List",new SelectList(new[] {"INDIA","US","JAPAN","CHINA" }),"Select")
+<br/>
+<br/>
+
+@Html.CheckBox("IsChecked") &nbsp; @Html.Label("I accept the terms and conditions")
+<br/>
+<br/>
+
+<input type="submit",value="Submit">
+
+@{
+    Html.EndForm();                                    //Ending html form
+}
 

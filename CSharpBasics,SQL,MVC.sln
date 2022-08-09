@@ -63,6 +63,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 	ProjectSection(SolutionItems) = preProject
 		SqlQuery(AggregrateFunctionsANDClauses)sql.sql = SqlQuery(AggregrateFunctionsANDClauses)sql.sql
 		SqlQuery(Basic queries).sql = SqlQuery(Basic queries).sql
+		SqlQuery(Functions).sql = SqlQuery(Functions).sql
 		SqlQuery(Joins).sql = SqlQuery(Joins).sql
 		SqlQuery(operator).sql = SqlQuery(operator).sql
 		SqlQuery(primary_AND_ForeignKey).sql = SqlQuery(primary_AND_ForeignKey).sql
@@ -78,7 +79,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCViewBagAND_TempData", "M
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCSessionDemo", "MVCSessionDemo\MVCSessionDemo.csproj", "{73690CD6-D3D3-43A9-8890-8168776EF095}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HtmlActionLinkDemo", "HtmlActionLinkDemo\HtmlActionLinkDemo.csproj", "{30A922DA-DEDF-42A7-973C-ECE253BC5038}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HtmlHelperMethodsDemo", "HtmlActionLinkDemo\HtmlHelperMethodsDemo.csproj", "{30A922DA-DEDF-42A7-973C-ECE253BC5038}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
