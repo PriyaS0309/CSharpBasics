@@ -64,6 +64,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		INDEXES.sql = INDEXES.sql
 		SqlQuery(AggregrateFunctionsANDClauses)sql.sql = SqlQuery(AggregrateFunctionsANDClauses)sql.sql
 		SqlQuery(Basic queries).sql = SqlQuery(Basic queries).sql
+		SqlQuery(CTE).sql = SqlQuery(CTE).sql
 		SqlQuery(Functions).sql = SqlQuery(Functions).sql
 		SqlQuery(global temp table).sql = SqlQuery(global temp table).sql
 		SqlQuery(Joins).sql = SqlQuery(Joins).sql
@@ -84,6 +85,14 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCSessionDemo", "MVCSessionDemo\MVCSessionDemo.csproj", "{73690CD6-D3D3-43A9-8890-8168776EF095}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HtmlHelperMethodsDemo", "HtmlActionLinkDemo\HtmlHelperMethodsDemo.csproj", "{30A922DA-DEDF-42A7-973C-ECE253BC5038}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Layout_cshtml(demo)", "Layout_cshtml(demo)\Layout_cshtml(demo).csproj", "{DC7174CB-C21B-44B4-ACAD-F234AA03DB83}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StronglyTypedViewDemo", "StronglyTypedViewDemo\StronglyTypedViewDemo.csproj", "{720B098D-4961-442B-A09A-07B9200A4449}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PartailViewDemo", "PartailViewDemo\PartailViewDemo.csproj", "{DA5CD9C6-5F8B-4211-99D6-2467E1832F0D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StronglyTypedPartialView", "StronglyTypedPartialView\StronglyTypedPartialView.csproj", "{EFA15926-221F-49C0-AC24-CF5EEAB88962}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -219,6 +228,22 @@ Global
 		{30A922DA-DEDF-42A7-973C-ECE253BC5038}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{30A922DA-DEDF-42A7-973C-ECE253BC5038}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{30A922DA-DEDF-42A7-973C-ECE253BC5038}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC7174CB-C21B-44B4-ACAD-F234AA03DB83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC7174CB-C21B-44B4-ACAD-F234AA03DB83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC7174CB-C21B-44B4-ACAD-F234AA03DB83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC7174CB-C21B-44B4-ACAD-F234AA03DB83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{720B098D-4961-442B-A09A-07B9200A4449}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{720B098D-4961-442B-A09A-07B9200A4449}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{720B098D-4961-442B-A09A-07B9200A4449}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{720B098D-4961-442B-A09A-07B9200A4449}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA5CD9C6-5F8B-4211-99D6-2467E1832F0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA5CD9C6-5F8B-4211-99D6-2467E1832F0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA5CD9C6-5F8B-4211-99D6-2467E1832F0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA5CD9C6-5F8B-4211-99D6-2467E1832F0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFA15926-221F-49C0-AC24-CF5EEAB88962}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFA15926-221F-49C0-AC24-CF5EEAB88962}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFA15926-221F-49C0-AC24-CF5EEAB88962}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFA15926-221F-49C0-AC24-CF5EEAB88962}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
