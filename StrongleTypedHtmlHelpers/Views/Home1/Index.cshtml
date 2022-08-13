@@ -1,0 +1,18 @@
+﻿@model StrongleTypedHtmlHelpers.Models.Calculation
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+@using (Html.BeginForm())
+{
+    <p>@Html.LabelFor(model => model.num1) &nbsp; @Html.TextBoxFor(model => model.num1)</p>
+    <p>@Html.LabelFor(model => model.num2) &nbsp; @Html.TextBoxFor(model => model.num2)</p>
+
+    <input type="submit" value="Submit" />
+    <p>Result is:@ViewBag.Result </p>
+}
+
+

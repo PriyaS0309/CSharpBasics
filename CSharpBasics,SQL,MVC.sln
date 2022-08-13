@@ -94,6 +94,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PartailViewDemo", "PartailV
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StronglyTypedPartialView", "StronglyTypedPartialView\StronglyTypedPartialView.csproj", "{EFA15926-221F-49C0-AC24-CF5EEAB88962}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StrongleTypedHtmlHelpers", "StrongleTypedHtmlHelpers\StrongleTypedHtmlHelpers.csproj", "{1D0F0041-545C-42D4-BC09-52D8A3D179B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValidationMessage", "ValidationMessage\ValidationMessage.csproj", "{2C724817-E77F-405B-A0BF-476F068B1DCB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -244,6 +248,14 @@ Global
 		{EFA15926-221F-49C0-AC24-CF5EEAB88962}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EFA15926-221F-49C0-AC24-CF5EEAB88962}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EFA15926-221F-49C0-AC24-CF5EEAB88962}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D0F0041-545C-42D4-BC09-52D8A3D179B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D0F0041-545C-42D4-BC09-52D8A3D179B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D0F0041-545C-42D4-BC09-52D8A3D179B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D0F0041-545C-42D4-BC09-52D8A3D179B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C724817-E77F-405B-A0BF-476F068B1DCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C724817-E77F-405B-A0BF-476F068B1DCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C724817-E77F-405B-A0BF-476F068B1DCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C724817-E77F-405B-A0BF-476F068B1DCB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

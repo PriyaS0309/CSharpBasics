@@ -1,0 +1,19 @@
+﻿@model StrongleTypedHtmlHelpers.Models.SignUp
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+@using (Html.BeginForm())
+{
+    <p> @Html.LabelFor(model => model.UserName) &nbsp; @Html.TextBoxFor(model => model.UserName,new {@class="form-control" }) </p>
+    <p> @Html.LabelFor(model => model.Password) &nbsp; @Html.PasswordFor(model => model.Password, new { @class = "form-control" }) </p>
+    <p> @Html.LabelFor(model=>model.Email) &nbsp; @Html.EditorFor(model=>model.Email,new {@class="form-control" })</p>
+    <p> @Html.LabelFor(model => model.Gender) &nbsp; @Html.DropDownListFor(model => model.Gender,new SelectList(new[] {"Male","Female"}),"Select", new { @class = "form-control" }) </p>
+    <p> @Html.LabelFor(model => model.Comment) &nbsp; @Html.TextAreaFor(model => model.Comment, new { @class = "form-control" }) </p>
+    <br />
+    <br />
+    <input type="submit", value="Submit">
+}
