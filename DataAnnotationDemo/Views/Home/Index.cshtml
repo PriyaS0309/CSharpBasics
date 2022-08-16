@@ -1,0 +1,36 @@
+﻿@model DataAnnotationDemo.Models.Employee
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+@using (Html.BeginForm())
+{
+    <p>@Html.LabelFor(model => model.EmployeeId) &nbsp; @Html.TextAreaFor(model => model.EmployeeId) 
+     @Html.ValidationMessageFor(model => model.EmployeeId,"",new {@class="text-danger"})
+    </p>
+    <p>
+     @Html.LabelFor(model => model.EmployeeName) &nbsp; @Html.TextAreaFor(model => model.EmployeeName)
+     @Html.ValidationMessageFor(model => model.EmployeeName)
+    </p>
+    <p>
+        @Html.LabelFor(model => model.EmployeeAge) &nbsp; @Html.TextAreaFor(model => model.EmployeeAge)
+        @Html.ValidationMessageFor(model => model.EmployeeAge)
+    </p>
+    <p>
+        @Html.LabelFor(model => model.EmployeeGender) &nbsp; @Html.TextAreaFor(model => model.EmployeeGender)
+        @Html.ValidationMessageFor(model => model.EmployeeGender)
+    </p>
+    <p>
+        @Html.LabelFor(model => model.EmployeeEmail) &nbsp; @Html.TextAreaFor(model => model.EmployeeEmail)
+        @Html.ValidationMessageFor(model => model.EmployeeEmail)
+    </p>
+
+    <input type="submit" value="Submit"  />
+
+    
+   @Html.Raw(ViewData["SuccessMessage"])
+}
+

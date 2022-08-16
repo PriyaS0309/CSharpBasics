@@ -98,6 +98,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StrongleTypedHtmlHelpers", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValidationMessage", "ValidationMessage\ValidationMessage.csproj", "{2C724817-E77F-405B-A0BF-476F068B1DCB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAnnotationDemo", "DataAnnotationDemo\DataAnnotationDemo.csproj", "{A4D9268A-1A92-49D9-BBD9-9CE1F7BF628F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -256,6 +258,10 @@ Global
 		{2C724817-E77F-405B-A0BF-476F068B1DCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2C724817-E77F-405B-A0BF-476F068B1DCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2C724817-E77F-405B-A0BF-476F068B1DCB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4D9268A-1A92-49D9-BBD9-9CE1F7BF628F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4D9268A-1A92-49D9-BBD9-9CE1F7BF628F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4D9268A-1A92-49D9-BBD9-9CE1F7BF628F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4D9268A-1A92-49D9-BBD9-9CE1F7BF628F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
