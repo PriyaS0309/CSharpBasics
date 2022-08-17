@@ -100,6 +100,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValidationMessage", "Valida
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAnnotationDemo", "DataAnnotationDemo\DataAnnotationDemo.csproj", "{A4D9268A-1A92-49D9-BBD9-9CE1F7BF628F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CategoryCRUDSample", "CategoryCRUDSample\CategoryCRUDSample.csproj", "{EA391EE8-5D38-422C-AFEC-27EBB49C18BF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -262,6 +264,10 @@ Global
 		{A4D9268A-1A92-49D9-BBD9-9CE1F7BF628F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A4D9268A-1A92-49D9-BBD9-9CE1F7BF628F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A4D9268A-1A92-49D9-BBD9-9CE1F7BF628F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA391EE8-5D38-422C-AFEC-27EBB49C18BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA391EE8-5D38-422C-AFEC-27EBB49C18BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA391EE8-5D38-422C-AFEC-27EBB49C18BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA391EE8-5D38-422C-AFEC-27EBB49C18BF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

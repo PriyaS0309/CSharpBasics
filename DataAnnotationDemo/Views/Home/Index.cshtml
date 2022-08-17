@@ -8,24 +8,36 @@
 
 @using (Html.BeginForm())
 {
-    <p>@Html.LabelFor(model => model.EmployeeId) &nbsp; @Html.TextAreaFor(model => model.EmployeeId) 
+    <p>
+        @Html.LabelFor(model=>model.OrganizationName) &nbsp; @Html.TextBoxFor(model=>model.OrganizationName,new {@Value="Nimap InfoTech",@ReadOnly=true})
+    </p>
+
+    <p>@Html.LabelFor(model => model.EmployeeId) &nbsp; @Html.TextBoxFor(model => model.EmployeeId) 
      @Html.ValidationMessageFor(model => model.EmployeeId,"",new {@class="text-danger"})
     </p>
     <p>
-     @Html.LabelFor(model => model.EmployeeName) &nbsp; @Html.TextAreaFor(model => model.EmployeeName)
+     @Html.LabelFor(model => model.EmployeeName) &nbsp; @Html.TextBoxFor(model => model.EmployeeName)
      @Html.ValidationMessageFor(model => model.EmployeeName)
     </p>
     <p>
-        @Html.LabelFor(model => model.EmployeeAge) &nbsp; @Html.TextAreaFor(model => model.EmployeeAge)
+        @Html.LabelFor(model => model.EmployeeAge) &nbsp; @Html.TextBoxFor(model => model.EmployeeAge)
         @Html.ValidationMessageFor(model => model.EmployeeAge)
     </p>
     <p>
-        @Html.LabelFor(model => model.EmployeeGender) &nbsp; @Html.TextAreaFor(model => model.EmployeeGender)
+        @Html.LabelFor(model => model.EmployeeGender) &nbsp; @Html.DropDownListFor(model => model.EmployeeGender,new SelectList (new[] {"Female","Male","others" }),"Select")
         @Html.ValidationMessageFor(model => model.EmployeeGender)
     </p>
     <p>
-        @Html.LabelFor(model => model.EmployeeEmail) &nbsp; @Html.TextAreaFor(model => model.EmployeeEmail)
+        @Html.LabelFor(model => model.EmployeeEmail) &nbsp; @Html.TextBoxFor(model => model.EmployeeEmail)
         @Html.ValidationMessageFor(model => model.EmployeeEmail)
+    </p>
+    <p>
+        @Html.LabelFor(model => model.EmployeePassword) &nbsp; @Html.TextBoxFor(model=>model.EmployeePassword)
+        @Html.ValidationMessageFor(model=>model.EmployeePassword)
+    </p>
+    <p>
+        @Html.LabelFor(model=>model.ConfirmEmpPassword) &nbsp; @Html.TextBoxFor(model=>model.ConfirmEmpPassword)
+        @Html.ValidationMessageFor(model=>model.ConfirmEmpPassword)
     </p>
 
     <input type="submit" value="Submit"  />
