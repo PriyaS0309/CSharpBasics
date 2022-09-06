@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32630.194
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpBasics", "CSharpBasics\CSharpBasics.csproj", "{675ADBBC-3955-4B62-A467-09D76AD7E7AB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Linq", "CSharpBasics\Linq.csproj", "{675ADBBC-3955-4B62-A467-09D76AD7E7AB}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "List", "List\List.csproj", "{F3031EE0-5D1B-4C63-9533-0B2B12296C7B}"
 EndProject
